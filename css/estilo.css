@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+/*----------SEÇÃO TOPO----------*/
+.secao-topo {
+    padding: 35px 0px;
+}
+
+.secao-topo a {
+    color: #233032;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.topo-conteudo {
+    position: relative;
+}
+
+.logotipo h1,
+.logotipo h2 {
+    font-size: 32px;
+}
+
+.logotipo img {
+    width: 80px;
+}
+
+.secao-topo .logotipo-texto {
+    position: absolute;
+    top: -1px;
+    left: 95px;
+}
+
+.logotipo-texto p {
+    font-weight: 600;
+}
+
+.links-topo {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+/*----------SEÇÃO BANNER----------*/
+
+.secao-banner {
+    padding: 180px 0px;
+}
+
+.banner-conteudo {
+    position: relative;
+}
+
+.banner-texto {
+    width: 470px;
+}
+
+.secao-banner img {
+    width: 50%;
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+.secao-banner h2 {
+    font-size: 28px;    
+    margin: 20px 0;
+    line-height: 40px;
+}
+
+.secao-banner p {    
+    word-spacing: 3px;
+}
+
+.banner-texto-principal {
+    line-height: 26px;
+}
+
+/*----------SEÇÃO ANÚNCIO----------*/
+.secao-anuncio {
+    padding: 40px 0px;
+}
+
+.anuncio-conteudo {
+    position: relative;
+}
+
+.secao-anuncio h2 {
+    font-size: 24px;
+}
+
+.secao-anuncio p {    
+    margin-top: 5px;
+}
+
+.secao-anuncio a {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    border-radius: 4px;
+}
+
+.secao-anuncio img {
+    margin-right: 10px;
+}
+
+.anuncio-texto {
+    width: 600px;
+}
+
+.anuncio1,
+.anuncio2 a {
+    background-color: #233032;
+    color: #fff;
+}
+
+/*----------SEÇÃO INFORMAÇÕES----------*/
+.secao-informacoes h2 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -1px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.secao-informacoes h3 {
+    font-size: 18px;
+    margin: 21px 0;
+}
+
+.informacoes-conteudo div {
+    margin-top: 61px;
+    width: 33%;
+    display: inline-block;
+}
+
+.informacoes-conteudo img {
+    width: 100px;
+}
+
+/*----------SEÇÃO PLANOS----------*/
+.secao-planos h2 {
+    font-size: 32px;
+    margin-top: 13px;
+    margin-bottom: 70px;
+}
+
+.secao-planos table {
+    box-shadow: 0 0 40px 15px rgba(47, 134, 214, 1);
+    border-radius: 4px;
+    margin-left: 7px;
+}
+
+.secao-planos h3 {
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.secao-planos th {
+    padding-top: 21px;
+    padding-bottom: 12px;
+    width: 250px;
+}
+
+.secao-planos img {
+    width: 100px;
+}
+
+.secao-planos p {
+    font-size: 13px;
+    color: #a89f9f;
+    font-weight: normal;
+    width: 140px;
+    margin: 9px auto;
+    line-height: 20px;
+}
+
+.secao-planos td {
+    padding: 15px 0;
+}
+
+.fundo-claro {
+    background-color: #fff;
+}
+
+.fundo-cinza {
+    background-color: #f6f6f6;
+}
+
+/*----------SEÇÃO RODAPÉ----------*/
+.secao-rodape {
+    position: relative;
+}
+
+.secao-rodape .logotipo {
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+}
+
+.secao-rodape img {
+    position: absolute;
+    left: 0;
+}
+
+.secao-rodape .logotipo-texto {
+    position: absolute;
+    left: 95px;
+    top: -1px;
+    text-align: left;
+}
+
+.rodape-contato {
+    font-weight: 500;
+    margin-top: 94px;
+    margin-bottom: 18px;
+}
+
+.rodape-contato p {
+    line-height: 40px;
+}
+
+.desenvolvido {
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+}
+
+/*----------COMBINADOS----------*/
+.secao-informacoes,
+.secao-planos,
+.secao-rodape {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.topo-conteudo,
+.banner-conteudo,
+.anuncio-conteudo,
+.informacoes-conteudo,
+.planos-conteudo {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.secao-banner,
+.anuncio2,
+.anuncio1 a {
+    background-color: #2f86d6;
+    color: #fff;
+}
+
+.secao-planos,
+.desenvolvido {
+    background-color: #f1f3f7;
+}

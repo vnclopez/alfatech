@@ -1,0 +1,79 @@
+/*----------SEÇÃO TOPO----------*/
+.secao-topo {
+    height: 160px;
+}
+
+.logotipo {
+    position: absolute;
+    top: 5px;
+    left: -1px;
+    width: 320px;
+}
+
+/*----------SEÇÃO TABELA----------*/
+.secao-tabela {
+    padding: 100px 0;
+}
+
+.secao-tabela span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #2f86d6;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.secao-tabela table {
+    width: 1024px;
+    margin: 1px auto;
+    background-color: #f6f6f6;
+}
+
+thead p {
+    color: #a8a4a4;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+th h2 {
+    font-size: 36px;
+}
+
+.celula-cinza {
+    background-color: #f1f3f7;
+}
+
+td.celula-cinza {
+    text-align: left;
+}
+
+/*----------SEÇÃO RODAPÉ----------*/
+.desenvolvido {
+    background-color: #fff;
+}
+
+.rodape-texto {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+/*----------COMBINADOS----------*/
+.secao-topo,
+.secao-rodape {
+    background-color: #2f86d6;
+}
+
+.logotipo-texto p,
+.links-topo a,
+.rodape-texto {
+    color: #fff;
+}
